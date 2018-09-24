@@ -36,6 +36,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4798957245437754}
+  - component: {fileID: 114374978226487790}
   m_Layer: 0
   m_Name: Sheep
   m_TagString: Untagged
@@ -112,3 +113,14 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1202554310160712}
   m_Mesh: {fileID: 4300000, guid: 5138f7c214dfe3f468282d05f837a25e, type: 3}
+--- !u!114 &114374978226487790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1470942473142428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8447ef6120bd5844abcea80ee98f4066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
