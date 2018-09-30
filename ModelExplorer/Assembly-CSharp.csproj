@@ -416,6 +416,7 @@
     <Compile Include="Assets\Scripts\Product.cs" />
     <Compile Include="Assets\Scripts\Sheep.cs" />
     <Compile Include="Assets\Scripts\TagalongAction.cs" />
+    <Compile Include="Assets\Scripts\Wander.cs" />
     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFConstant.cginc" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurable.shader" />
     <None Include="Assets\HoloToolkit\UX\Shaders\HUXButtonShader.shader" />
