@@ -417,6 +417,9 @@
     <Compile Include="Assets\Scripts\Sheep.cs" />
     <Compile Include="Assets\Scripts\TagalongAction.cs" />
     <Compile Include="Assets\Scripts\Wander.cs" />
+    <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
+    <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
+    <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControl.cs" />
     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFConstant.cginc" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurable.shader" />
     <None Include="Assets\HoloToolkit\UX\Shaders\HUXButtonShader.shader" />
