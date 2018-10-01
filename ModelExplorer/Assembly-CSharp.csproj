@@ -61,6 +61,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AirSig\Script\AirSigManager.cs" />
+    <Compile Include="Assets\AirSig\Script\Demo\BasedGestureHandle.cs" />
+    <Compile Include="Assets\AirSig\Script\Demo\DeveloperDefined.cs" />
+    <Compile Include="Assets\AirSig\Script\Demo\PlayerGesture.cs" />
+    <Compile Include="Assets\AirSig\Script\Demo\PlayerSignature.cs" />
+    <Compile Include="Assets\AirSig\Script\Demo\SmartGesture.cs" />
     <Compile Include="Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
     <Compile Include="Assets\Holograms\Support\AstroMan\SetRendererSettings.cs" />
     <Compile Include="Assets\Holograms\Support\Fitbox\Fitbox.cs" />
@@ -421,14 +427,18 @@
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControl.cs" />
     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFConstant.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurable.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\HoloToolkit\UX\Shaders\HUXButtonShader.shader" />
     <None Include="Assets\HoloToolkit\SpatialMapping\Shaders\SpatialMappingTap.shader" />
     <None Include="Assets\HoloToolkit\UX\Shaders\unlit_vert_color.shader" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\VertexLitConfigurable.cginc" />
     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFStandardInput.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\FastConfigurable\FastConfigurable.cginc" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\FastConfigurable\FastConfigurable2Sided.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\Grass And Flowers Pack 1\Example Scene\Skyboxes\_skybox info.txt" />
     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFVertexLitCommon.cginc" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitNoDepthTest.shader" />
@@ -439,9 +449,13 @@
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\VertexLitConfigurable.shader" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\StandardFast.shader" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\LambertianConfigurable.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\BlinnPhongConfigurableTransparent.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\HoloToolkit\SpatialMapping\Shaders\Wireframe.shader" />
     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFConstant.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\HoloToolkit\Input\Shaders\CursorShader.shader" />
     <None Include="Assets\Resources\Shaders\SpecularHighlight.shader" />
     <None Include="Assets\HoloToolkit\Input\Shaders\EditorHands.shader" />
@@ -451,6 +465,7 @@
     <None Include="Assets\Resources\Shaders\StandardFastBackFaceCulling.shader" />
     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFStandard.shader" />
     <None Include="Assets\HoloToolkit\UX\Shaders\Normal-Diffuse.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\LambertianConfigurableTransparent.shader" />
     <None Include="Assets\HoloToolkit\UX\Shaders\InvisibleShader.shader" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\FastConfigurable\FastConfigurable.shader" />
@@ -459,6 +474,8 @@
     <None Include="Assets\HoloToolkit\UX\Shaders\DebugNormals.shader" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\FastConfigurable\macro.cginc" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\FastConfigurable\HoloToolkitCommon.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\HoloToolkit\UX\Shaders\Alpha-Diffuse.shader" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Standard.shader" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\VertexLitConfigurableTransparent.shader" />
@@ -466,14 +483,20 @@
     <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Shaders\Skybox Cubemap Extended.shader" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\BlinnPhongConfigurable.cginc" />
     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFMobileCommon.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\HoloToolkit\UX\Shaders\Occlusion.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\HoloToolkit\UX\Shaders\MovieMask.shader" />
     <None Include="Assets\HoloToolkit\UX\Shaders\StereoImage.shader" />
     <None Include="Assets\HoloToolkit\License.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\BlinnPhongConfigurable.shader" />
     <None Include="Assets\HoloToolkit\UX\Shaders\LuminousUnity.shader" />
     <None Include="Assets\HoloToolkit\Common\Shaders\WindowOcclusion.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurable.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\HoloToolkit\UX\Shaders\3DTextShader.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Joel Yoon/Documents/GitHub/iLearn/ModelExplorer/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

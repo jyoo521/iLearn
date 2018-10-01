@@ -1,10 +1,5 @@
 SheepId,SheepName,X,Y,Z
-1,Sheep,1,1,1
-2,Sheep,2,2,2
-3,Sheep,2,1,1
-4,Sheep,3,2,2
-5,Sheep,5,1,1
-6,Sheep,6,2,2
-7,Sheep,7,1,1
-8,Sheep,7,2,2
-9,Sheep,6,1,1
+1,Sheep,-8.06,-3.024353,9.144302
+2,Sheep,-9,-3.024353,10
+3,Sheep,-7,-3.024353,9
+4,Sheep,-6,-3.024353,8
